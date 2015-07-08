@@ -1,0 +1,23 @@
+## FTGL ##
+
+FTGL is a free cross-platform Open Source C++ library that uses Freetype2 to simplify rendering fonts in OpenGL applications. FTGL supports bitmaps, pixmaps, texture maps, outlines, polygon mesh, and extruded polygon rendering modes.
+
+Link: http://sourceforge.net/projects/ftgl/develop
+
+## Font Stash ##
+
+An ever more minimalistic approach for rendering font in OpenGL using Sean Barret's [truetype font rasterizer](http://nothings.org/stb/stb_truetype.h) and Bjoern Hoehrmann's [flexible and economical UTF-8 decoder](http://bjoern.hoehrmann.de/utf-8/decoder/dfa/).
+
+Link: http://digestingduck.blogspot.com/2009/08/font-stash.html
+
+### GLText ###
+
+gltext provides a text-rendering library compatible with modern (core profile) OpenGL implementations.
+
+Link: http://branan.github.com/gltext/
+
+## FreeType on OpenGL ES ##
+
+This project renders fonts using OpenGL ES and the FreeType library. The FreeType library uses font hinting, which makes the fonts look better than your average anti-aliased fonts. This project is primarily designed for the iPhone, however the code is portable and should work on other platforms.
+
+Link:  http://www.codeproject.com/KB/iPhone/iPhoneFreeType.aspx

@@ -1,0 +1,87 @@
+### September 30, 2013 ###
+
+Freetype-gl code is now hosted on github: https://github.com/rougier/freetype-gl
+
+### May 2, 2013 ###
+
+I published a paper on higher quality text :
+
+Nicolas P. Rougier, Higher Quality 2D Text Rendering, Journal of Computer Graphics Techniques (JCGT), vol. 2, no. 1, 50-64, 2013. Available online http://jcgt.org/published/0002/01/04/
+
+
+
+### April 13, 2013 ###
+
+Added some harfbuzz experiments to display all kind of languages.
+
+
+### March 7, 2013 ###
+
+Merged (reintegrate) gl-3.0 into trunk.
+
+
+### February 20, 2013 ###
+
+Hopefully the gl-3.0 branch should compile fine now.
+
+
+### December 15, 2012 ###
+
+gl-3.0 branch has been fixed but compilation on windows need a few more fix. Testers welcome...
+
+
+### August 14, 2012 ###
+
+Created the gl-3.0 branch to remove deprecated features. Will be the main branch after tests.
+
+### June 19, 2012 ###
+
+Several bug fixes.
+
+
+### May 22, 2012 ###
+
+[Documentation](http://freetype-gl.googlecode.com/svn/wiki/doc/index.html) online
+
+### May 7, 2012 ###
+
+Big code cleanup and API documentation added.
+
+### March 6, 2012 ###
+
+Added an ansi parsing demo that allow to render ansi sequences (like in a 256 colors ansi terminal).
+
+### February 15, 2012 ###
+
+Cleanup code and added windows DLL for easy build.
+
+### January 7, 2012 ###
+
+Added glyph outline features.
+
+### January 4, 2012 ###
+
+A new revamped markup demo inspired by the [fontstash](http://digestingduck.blogspot.com/2009/08/font-stash.html) screenshot plus underline, over line, background, color, etc.
+
+A new gamma correction demo showing it's influence for light or dark text.
+
+
+### December 21, 2011 ###
+
+I've been doing heavy code cleanup in order to reduce the internal dependencies. Now, only the vector, texture-atlas and texture-font are needed to put some glyphs in a texture. For the actual display, there is
+no "official" API yet since you're can use different technics as illustrated in the different demos.
+
+I also add a display list demo.
+
+
+
+### Septembre, 21 2011 ###
+
+Added the makefont.c and demo-makefont.c demos. The makefont build a header file with all font information within (texture data, glyphs description with kerning, etc.) such that you can include this header file in your program and you have no dependency at all.
+
+See the demo-makefont.c example. If you're curious, here is what a generated header file looks like: [arial-16.h](http://code.google.com/p/freetype-gl/source/browse/trunk/arial-16.h)
+
+
+### Septembre, 19 2011 ###
+
+Added the [demo-atb-agg.c](http://code.google.com/p/freetype-gl/source/browse/trunk/demo-atb-agg.c) that allows to play with the different font settings to finely tune rendering.

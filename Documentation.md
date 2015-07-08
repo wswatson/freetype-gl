@@ -1,0 +1,5 @@
+# Documentation #
+
+Doxygen generated documentation is available from http://freetype-gl.googlecode.com/svn/wiki/doc/index.html.
+
+It might be not up to date.
